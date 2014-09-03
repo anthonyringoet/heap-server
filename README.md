@@ -8,12 +8,12 @@ Install the module with: `npm install heap-server`
 More info on the [Heap documentation site](https://heapanalytics.com/docs/server-side)
 
 ## Methods
-The Heap server side API currently has two methods:
+The Heap server side API currently has two internal methods:
 
 - ```track```
 - ```identify```
 
-When you send along an ```event``` property you will be using the ```track``` method. If you are not sending an event along you're using the ```identify``` method.
+When you send along an ```event``` property with the ```heap.push()``` method you will be using the internal ```track``` method. If you are not sending an event along you're using the internal ```identify``` method.
 
 #### Example: tracking a custom event
 
