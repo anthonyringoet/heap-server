@@ -44,7 +44,7 @@ heap.push({
 });
 ```
 
-#### Example: tracking a custom event
+#### Example: identifying a new or existing user
 
 You can also use this to update properties for an existing user.
 
