@@ -1,6 +1,6 @@
 {
   "name": "heap-server",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "lib/heap-server.js",
   "description": "Heap Analytics server-side events helper",
   "homepage": "https://github.com/anthonyringoet/heap-server",
